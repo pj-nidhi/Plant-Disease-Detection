@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML-App</title>
+    <link rel="stylesheet" type="text/css" href="static/css/app.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Plant Monitoring and Disease Detection</h1>
+    </div>
+    <div class="main">
+        <form id="upload file" action="/success" method="post" enctype="multipart/form-data">
+            <h2>Upload Image here</h2>
+            <input class="btn-upload" type="file" name="file" id="upload" accept="image/*">
+
+
+            <button type="submit" class="btn" id="btn-predict" value="Upload">Predict</button>
+
+    </div>
+    </div>
+    </form>
+
+    <!-- test -->
+
+    <div class="loader"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+    <div class="footer">
+        &copy;2022
+        <!-- ui structure -->
+    </div>
+    </div>
+</body>
+
+</html>
